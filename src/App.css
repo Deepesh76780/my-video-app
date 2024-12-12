@@ -1,0 +1,53 @@
+/* App.css */
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+input, button {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  color: #e0e0e0;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: #f5f5f5;
+}
+
+p {
+  margin: 10px 0;
+}
+
+audio, .react-player__preview {
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.react-player__preview img {
+  border-radius: 5px;
+}
+
+.react-player__shadow {
+  border-radius: 5px;
+}
